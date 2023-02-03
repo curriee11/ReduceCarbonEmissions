@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Delete Spam Emails",
+    "description": "An extension to delete all spam emails in a Gmail inbox",
+    "version": "1.0",
+    "permissions": [
+      "https://mail.google.com/*"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    }
+  }
+  

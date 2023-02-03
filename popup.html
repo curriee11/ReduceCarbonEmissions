@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* Style the button and give it some padding */
+      .btn {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-size: 16px;
+      }
+
+      /* Style the container */
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+    </style>
+    <title>CarbonReducer</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Reduce Carbon Emissions</h1>
+      <p>By deleting spam emails, you can help reduce carbon emissions from the energy used to store and transmit these unwanted messages.</p>
+      <button id="delete-spam" class="btn">Delete Spam Emails</button>
+    </div>
+
+    <!-- Load the Gmail API -->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
